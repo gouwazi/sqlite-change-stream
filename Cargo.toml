@@ -2,6 +2,10 @@
 name = "sqlite-change-stream"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A small command-line tool developed that monitors changes in a SQLite database in real-time and outputs change events in JSON format to stdout."
+repository = "https://github.com/gouwazi/sqlite-change-stream"
+readme = "README.md"
 
 [dependencies]
 rusqlite = "0.33.0"
